@@ -19,8 +19,8 @@ const navigation = [
         href: "/isi-mark-certification-domestic-manufactures",
       },
       {
-        name: "Foreign Manufacturers Certification Scheme",
-        href: "/foreign-manufactures-certification-scheme",
+        name: "ISI Mark Certification - Foreign Manufacturers Certification Scheme",
+        href: "/isi-mark-certification-foreign-manufacturers-certification-scheme",
       },
       {
         name: "Compulsory Registration Scheme",
@@ -28,8 +28,8 @@ const navigation = [
       },
       { name: "Certificate of Conformity", href: "/certificate-of-conformity" },
       {
-        name: "BIS Certification Scheme 10",
-        href: "/bis-certification-scheme-10",
+        name: "BIS Certification Scheme X",
+        href: "/bis-certification-scheme-x",
       },
       { name: "Upcoming QCOs Under", href: "/upcoming-qcos-under" },
     ],

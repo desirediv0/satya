@@ -13,7 +13,6 @@ export default function page() {
       <main className="flex-grow">
         <HeroBanner
           title="UPCOMING QCOS UNDER ( Scheme – X )"
-          subtitle="UPCOMING QCOS UNDER ( Scheme – X ) is a mandatory requirement for all products sold in India."
           backgroundImage="/images/services/1.png"
         />
         <section className="py-14 sm:py-16">

@@ -12,7 +12,6 @@ export default function page() {
       <main className="flex-grow">
         <HeroBanner
           title="COMPULSORY REGISTRATION SCHEME (CRS)"
-          subtitle="COMPULSORY REGISTRATION SCHEME (CRS) is a mandatory requirement for all products sold in India."
           backgroundImage="/images/services/1.png"
         />
         <section className="py-14 sm:py-16">

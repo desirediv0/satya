@@ -27,3 +27,6 @@ body {
     text-wrap: balance;
   }
 }
+p{
+  text-align: justify;
+}

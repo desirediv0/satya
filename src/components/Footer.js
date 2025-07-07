@@ -5,7 +5,6 @@ const navigation = {
   company: [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
     { name: "Process", href: "/process" },
     { name: "Documents", href: "/documents" },
     { name: "Contact", href: "/contact" },
@@ -57,33 +56,22 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="mx-auto max-w-8xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <Link href="/" className="block">
               <Image
-                src="/logo.png"
+                src="/white-logo.png"
                 alt="Satya Logo"
-                width={200}
-                height={60}
-                className="h-16 w-auto"
+                width={250}
+                height={40}
+                className="w-auto"
               />
             </Link>
             <p className="text-sm leading-6  text-gray-200">
               Your trusted partner in BIS certification and compliance services.
             </p>
-            <div className="flex space-x-6">
-              {navigation.social.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-400 hover:text-gray-200"
-                >
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
-                </Link>
-              ))}
-            </div>
+            
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
@@ -152,7 +140,7 @@ export default function Footer() {
                     href="mailto:info@satyaconsultancy.com"
                     className="hover:text-white"
                   >
-                    info@satyaconsultancy.com
+                    info@satyacs.com
                   </a>
                 </li>
               </ul>

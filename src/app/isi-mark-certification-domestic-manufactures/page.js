@@ -12,7 +12,6 @@ export default function page() {
       <main className="flex-grow">
         <HeroBanner
           title="ISI MARK CERTIFICATION - DOMESTIC MANUFACTURERS"
-          subtitle="ISI MARK CERTIFICATION - DOMESTIC MANUFACTURERS is a mandatory requirement for all products sold in India."
           backgroundImage="/images/services/1.png"
         />
         <section className="py-14 sm:py-16">
@@ -154,27 +153,24 @@ export default function page() {
                 </p>
                 <ul className="space-y-4">
                   <li>1. Name and address proof of office</li>
-                  <ul className="pl-4 mt-2 space-y-1">
-                    <li>1. Certificate from the registrar of the firm, OR</li>
+                  <ul className="pl-4 mt-2 space-y-1 list-disc">
+                    <li>Certificate from the registrar of the firm, OR</li>
                     <li>
-                      2. Certificate from the directorate of industries, OR
+                      Certificate from the directorate of industries, OR
                     </li>
-                    <li>3. Certificate from industries centre, OR</li>
-                    <li>4. Memorandum of articles, etc</li>
+                    <li>Certificate from industries centre, OR</li>
+                    <li>Memorandum of articles, etc</li>
                   </ul>
 
                   <li>2. Name and address proof of factory</li>
-                  <ul className="pl-4 mt-2 space-y-1">
-                    <li>1. Certificate from the registrar of the firm, OR</li>
+                  <ul className="pl-4 mt-2 space-y-1 list-disc">
+                    <li>Certificate from the registrar of the firm, OR</li>
                     <li>
-                      2. Certificate from the directorate of industries, OR
+                      Certificate from the directorate of industries, OR
                     </li>
-                    <li>3. Certificate from industries centre, OR</li>
-                    <li>4. Memorandum of articles</li>
-                    <li>
-                      5. Valid lease deed showing occupancy of the firm over the
-                      premises, etc
-                    </li>
+                    <li>Certificate from industries centre, OR</li>
+                    <li>Memorandum of articles</li>
+                    <li>Valid lease deed showing occupancy of the firm over the premises, etc</li>
                   </ul>
 
                   <li>3. Valid MSME certificate, if applicable</li>

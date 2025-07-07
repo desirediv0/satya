@@ -10,7 +10,7 @@ export default function ThankYou() {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center justify-center space-y-4"
         >
-          <p className="text-xl text-gray-600">Thank You for Visiting Us</p>
+          <p className="text-xl text-gray-600">Thanks for Visiting Us</p>
           <motion.div
             initial={{ scale: 1 }}
             animate={{ scale: [1, 1.1, 1] }}

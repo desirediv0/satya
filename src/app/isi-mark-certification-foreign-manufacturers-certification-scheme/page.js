@@ -11,8 +11,7 @@ export default function page() {
     <>
       <main className="flex-grow">
         <HeroBanner
-          title="ISI MARK CERTIFICATION "
-          subtitle="ISI MARK CERTIFICATION - FOREIGN MANUFACTURERS CERTIFICATION SCHEME (FMCS) is a mandatory requirement for all products sold in India."
+          title="ISI MARK CERTIFICATION - FOREIGN MANUFACTURERS CERTIFICATION SCHEME (FMCS)"
           backgroundImage="/images/services/1.png"
         />
         <section className="py-14 sm:py-16">

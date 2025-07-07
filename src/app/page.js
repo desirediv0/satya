@@ -179,57 +179,64 @@ export default function Home() {
         {/* about section */}
         <section className="py-14 sm:py-24 bg-gray-50">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:text-center">
-              <h2 className="text-base font-semibold leading-7 text-[var(--primary-blue)]">
-                About Us
-              </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Your Trusted Partner in Certification
-              </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                We provide services to businesses to navigate the complexities
-                of obtaining BIS certification for their products. We assist to
-                provide guidance, application preparation, product testing,
-                liaison with BIS authorities, and ensuring compliance with
-                relevant Indian standards.
-              </p>
-            </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div className="relative">
                 <Image
                   src="/images/about/1.png"
                   alt="Our Office"
-                  width={800}
-                  height={600}
+                  width={500}
+                  height={500}
                   className="rounded-2xl shadow-xl ring-1 ring-gray-400/10"
                 />
               </div>
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-1">
-                  {features.map((feature, index) => (
-                    <motion.div
-                      key={feature.title}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: index * 0.1 }}
-                      viewport={{ once: true }}
-                      className="flex flex-col"
-                    >
-                      <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                        <div className="h-10 w-10 flex items-center justify-center rounded-lg bg-[var(--primary-blue)] text-white">
-                          {feature.icon}
-                        </div>
-                        {feature.title}
-                      </dt>
-                      <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                        <p className="flex-auto">{feature.description}</p>
-                      </dd>
-                    </motion.div>
-                  ))}
-                </dl>
+                <h2 className="text-lg font-semibold leading-7 text-[var(--primary-blue)]">
+                  About Us
+                </h2>
+                <h2 className="mt-4 sm:mt-5 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                  Your Trusted Partner in Certification
+                </h2>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  We provide services to businesses to navigate the complexities
+                  of obtaining BIS certification for their products. We assist to
+                  provide guidance, application preparation, product testing,
+                  liaison with BIS authorities, and ensuring compliance with
+                  relevant Indian standards.
+                </p>
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="py-14 sm:py-24 bg-gray-50">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+              <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+                <h2 className="text-lg font-semibold leading-7 text-[var(--primary-blue)]">
+                  Our Team
+                </h2>
+                <h2 className="mt-4 sm:mt-5 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                  Experts behind our success
+                </h2>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Satya Consultancy Services is collaboration of professionals & partners working together for customers to arrange product BIS registration and certification at the earliest. With the support of our expert team and partners, coming together, our team takes pride to serve its customers with a wide range of services including coordination with different organizations to provide hassle-free services.
+                </p>
+              </div>
+              <div className="relative">
+                <Image
+                  src="/images/services/3.png"
+                  alt="Our Office"
+                  width={600}
+                  height={600}
+                  className="rounded-2xl shadow-xl ring-1 ring-gray-400/10"
+                />
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section className="py-14 bg-white">
+          <Image src="/favicon.png" alt="Satya Logo" width={100} height={100} className="mx-auto mb-4" />
         </section>
 
         {/* Services Section */}
@@ -306,7 +313,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300"
+              className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300 text-center"
             >
               Contact us today to discuss your certification needs and take the
               first step towards compliance.
@@ -323,12 +330,6 @@ export default function Home() {
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Contact Us
-              </Link>
-              <Link
-                href="/services"
-                className="text-sm font-semibold leading-6 text-white"
-              >
-                Learn more <span aria-hidden="true">→</span>
               </Link>
             </motion.div>
           </div>
