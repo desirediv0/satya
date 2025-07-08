@@ -92,10 +92,12 @@ export default function page() {
                 </div>
               </motion.div>
             </div>
-            <p className="text-lg sm:text-xl font-semibold pt-3">
-              List of Machinery:{" "}
+            <p className="mt-3 sm:mt-6">
+              <Link href="/documents" className="text-lg sm:text-xl font-semibold py-2 mt-3 sm:mt-8 bg-[var(--primary-blue)] hover:text-white text-white rounded-md px-4">
+              List of Machinery
+            </Link>
             </p>
-            <p className="pt-4 mx-auto">
+            {/* <p className="pt-4 mx-auto">
               <Image
                 src="/images/c-c-1.png"
                 alt="scheme 1"
@@ -139,7 +141,7 @@ export default function page() {
                 width={1000}
                 height={1000}
               />
-            </p>
+            </p> */}
           </div>
         </section>
       </main>

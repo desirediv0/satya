@@ -236,7 +236,6 @@ export default function Home() {
                   className="rounded-2xl shadow-xl ring-1 ring-gray-400/10"
                 />
               </div>
-              
             </div>
           </div>
         </section>
@@ -244,6 +243,8 @@ export default function Home() {
           <Image src="/favicon.png" alt="Satya Logo" width={100} height={100} className="mx-auto mb-4" />
           <Image src="/satya.png" alt="Satya Logo" width={500} height={100} className="mx-auto my-6" />
         </section>
+        <ThankYou />
+
 
         {/* Services Section */}
 
@@ -340,7 +341,6 @@ export default function Home() {
             </motion.div>
           </div>
         </section>
-        <ThankYou />
       </main>
     </>
   );

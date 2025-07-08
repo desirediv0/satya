@@ -134,7 +134,12 @@ export default function page() {
                 </div>
               </motion.div>
             </div>
-            <p className="pt-8 sm:pt-12 mx-auto">
+            <p className="mt-3 sm:mt-6">
+              <Link href="/documents" className="text-lg sm:text-xl font-semibold py-2 mt-3 sm:mt-8 bg-[var(--primary-blue)] hover:text-white text-white rounded-md px-4">
+              List of Machinery
+            </Link>
+            </p>
+            {/* <p className="pt-8 sm:pt-12 mx-auto">
               <Image
                 src="/images/d-d-01.png"
                 alt="scheme 1"
@@ -286,7 +291,7 @@ export default function page() {
                 width={1000}
                 height={1000}
               />
-            </p>
+            </p> */}
           </div>
           <div className="py-14 sm:py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -395,7 +400,7 @@ export default function page() {
                 </p>
                 <p className="pt-4 mx-auto">
                   <Image
-                    src="/images/F-F.png"
+                    src="/images/f-f.png"
                     alt="ff"
                     className="mx-auto w-3/4"
                     width={1000}
@@ -407,7 +412,7 @@ export default function page() {
                 </p>
                 <p className="pt-4 mx-auto">
                   <Image
-                    src="/images/G-G.png"
+                    src="/images/g-g.png"
                     alt="gg"
                     className="mx-auto w-3/4"
                     width={1000}

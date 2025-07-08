@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function ThankYou() {
   return (
-    <div className="bg-gray-50 py-16">
+    <div className=" py-16">
       <div className="container mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

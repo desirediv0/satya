@@ -173,6 +173,26 @@ export default function page() {
                   </ul>
                 </ul>
               </div>
+              <div className="pt-6 sm:pt-12">
+                <h5 className="text-xl font-semibold pb-3">List Of Documents Required For BIS Certification</h5>
+                <ul>
+                  <li className="pt-2">1.	<strong>Form I</strong>     Manufacturing Machinery & Test equipment details in manufacturing Premise</li>
+                  <li className="pt-2">2.	<strong>Form II</strong>    List of Test Equipments</li>
+                  <li className="pt-2">3.	<strong>Form III</strong>   Checklist for Application</li>
+                  <li className="pt-2">4.	<strong>Form IV</strong>  Test report</li>
+                  <li className="pt-2">5.	<strong>Form V</strong>   BIS Application</li>
+                  <li className="pt-2">6.	<strong>Form VI</strong>  Authorised Indian Representative Nomination (Application for  
+		     Foreign manufacturers)</li>
+                  <li className="pt-2">7.	<strong>Form IX</strong>  Agreement (applicable for foreign manufacturers)</li>
+                  <li className="pt-2">8.	<strong>Form X</strong>   Indemnity Bond (applicable for foreign manufacturers)</li>
+                  <li className="pt-2">9.	<strong>Form XI</strong>  Performance Bank Guarantee (applicable for foreign manufacturers)</li>
+                </ul>
+                <p className="text-lg pt-3">Note : </p>
+                <ul className="pl-4 list-disc pt-1">
+                  <li className="pt-2">Documents are subject to variation</li>
+                  <li className="pt-2">During Audit by BIS team it is liability of the overseas manufacturer to arrange for VISA, travelling & staying facilities. </li>
+                </ul>
+              </div>
               <div className="pt-8 sm:pt-12">
                 <p className="text-xl font-semibold pb-2">
                   Additional Terms & Conditions :

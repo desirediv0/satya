@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import HeroBanner from "@/components/HeroBanner";
+import Image from "next/image";
 
 const forms = [
   "Form I - AManufacturing Machinery & Test equipment details in manufacturing Premise",
@@ -73,8 +74,217 @@ export default function Forms() {
                     </li>
                   </ul>
                 </div>
+
               </div>
             </div>
+            <div className="mt-16">
+              <h5 className="text-lg sm:text-2xl font-semibold text-center">BIS CERTIFICATION Scheme - X</h5>
+              <h5 className="text-lg font-semibold mt-3">List of Machinery</h5>
+              <p className="pt-4 mx-auto">
+                <Image
+                  src="/images/c-c-1.png"
+                  alt="scheme 1"
+                  className="mx-auto w-full"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/c-c-2.png"
+                  alt="scheme 2"
+                  className="mx-auto w-full"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/c-c-3.png"
+                  alt="scheme 3"
+                  className="mx-auto w-full"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/c-c-4.png"
+                  alt="scheme 4"
+                  className="mx-auto w-full"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/c-c-5.png"
+                  alt="scheme 5"
+                  className="mx-auto w-full"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+            </div>
+
+            <div className="mt-16">
+              <h5 className="text-lg sm:text-2xl font-semibold text-center">UPCOMING QCOS UNDER Scheme - X</h5>
+              <h5 className="text-lg font-semibold mt-3">List of Machinery</h5>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-01.png"
+                  alt="scheme 1"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-02.png"
+                  alt="scheme 2"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-03.png"
+                  alt="scheme 3"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-04.png"
+                  alt="scheme 4"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-06.png"
+                  alt="scheme 6"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-07.png"
+                  alt="scheme 7"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-08.png"
+                  alt="scheme 8"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-09.png"
+                  alt="scheme 9"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-10.png"
+                  alt="scheme 10"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-11.png"
+                  alt="scheme 11"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-12.png"
+                  alt="scheme 12"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-13.png"
+                  alt="scheme 13"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-14.png"
+                  alt="scheme 14"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-15.png"
+                  alt="scheme 15"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-16.png"
+                  alt="scheme 16"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-17.png"
+                  alt="scheme 17"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+              <p className="pt-8 sm:pt-12 mx-auto">
+                <Image
+                  src="/images/d-d-18.png"
+                  alt="scheme 18"
+                  className="mx-auto w-3/4"
+                  width={1000}
+                  height={1000}
+                />
+              </p>
+            </div>
+
           </div>
         </section>
       </main>
