@@ -242,6 +242,7 @@ export default function Home() {
         </section>
         <section className="py-14 bg-white">
           <Image src="/favicon.png" alt="Satya Logo" width={100} height={100} className="mx-auto mb-4" />
+          <Image src="/satya.png" alt="Satya Logo" width={500} height={100} className="mx-auto my-6" />
         </section>
 
         {/* Services Section */}
