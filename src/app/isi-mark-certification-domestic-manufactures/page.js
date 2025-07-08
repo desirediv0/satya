@@ -188,6 +188,9 @@ export default function page() {
                     approved)
                   </li>
                   <li>11. In-house reports</li>
+                  <li>12. Third-party laboratory test reports as per Indian Standards, if applicable</li>
+                  <li>13. Layout Plan of the factory indicating the office, lab, storage area, production area, and finished good storage.</li>
+                  <li>14. Test certificate copy of each raw material.</li>
                 </ul>
               </div>
               <div className="pt-6">

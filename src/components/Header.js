@@ -34,7 +34,6 @@ const navigation = [
       { name: "Upcoming QCOs Under", href: "/upcoming-qcos-under" },
     ],
   },
-  { name: "Process", href: "/process" },
   { name: "Documents", href: "/documents" },
   { name: "Contact", href: "/contact" },
 ];
@@ -189,14 +188,14 @@ export default function Header() {
         </div>
 
         {/* Desktop CTA button */}
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             href="/contact"
             className="rounded-md bg-[var(--primary-blue)] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[var(--primary-light-blue)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           >
             Contact Us
           </Link>
-        </div>
+        </div> */}
       </nav>
 
       {/* Mobile menu */}

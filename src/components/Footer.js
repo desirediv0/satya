@@ -5,24 +5,29 @@ const navigation = {
   company: [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Process", href: "/process" },
     { name: "Documents", href: "/documents" },
     { name: "Contact", href: "/contact" },
   ],
   services: [
     { name: "BIS Certification", href: "/bis-certification" },
-    {
-      name: "ISI Mark Certification",
-      href: "/isi-mark-certification-domestic-manufactures",
-    },
-    {
-      name: "Foreign Manufacturers",
-      href: "/foreign-manufactures-certification-scheme",
-    },
-    {
-      name: "Compulsory Registration",
-      href: "/compulsory-registration-scheme",
-    },
+      {
+        name: "ISI Mark Certification - Domestic Manufacturers",
+        href: "/isi-mark-certification-domestic-manufactures",
+      },
+      {
+        name: "ISI Mark Certification - Foreign Manufacturers Certification Scheme",
+        href: "/isi-mark-certification-foreign-manufacturers-certification-scheme",
+      },
+      {
+        name: "Compulsory Registration Scheme",
+        href: "/compulsory-registration-scheme",
+      },
+      { name: "Certificate of Conformity", href: "/certificate-of-conformity" },
+      {
+        name: "BIS Certification Scheme X",
+        href: "/bis-certification-scheme-x",
+      },
+      { name: "Upcoming QCOs Under", href: "/upcoming-qcos-under" },
   ],
   social: [
     {
@@ -118,7 +123,7 @@ export default function Footer() {
                 <li className="text-sm leading-6 text-gray-300">
                   <span className="font-semibold text-gray-200">Address:</span>
                   <br />
-                  Unit No. 553, Satya The Hive Mall,
+                  Unit No. 553, Satya The Hive,
                   <br />
                   Sector – 102, Gurugram, India
                 </li>
