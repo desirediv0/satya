@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import services from "@/data/services";
 import ThankYou from "@/components/ThankYou";
+import HeroBanner from "@/components/HeroBanner";
 
 const features = [
   {
@@ -95,6 +96,10 @@ export default function Home() {
   return (
     <>
       <main className="flex-grow">
+        <HeroBanner
+          title="Home"
+          backgroundImage="/images/services/1.png"
+        />
         {/* Hero Section */}
         <section className="relative isolate pt-14">
           <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">

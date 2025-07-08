@@ -149,7 +149,7 @@ export default function Contact() {
                       Office Address
                     </h3>
                     <p className="mt-2 text-base leading-7 text-gray-600">
-                      Unit No. 553, Satya The Hive Mall,
+                      Unit No. 553, Satya The Hive,
                       <br />
                       Sector – 102, Gurugram
                       <br />
