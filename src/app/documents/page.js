@@ -239,6 +239,325 @@ export default function Forms() {
               />
             </p>
 
+            {/* form 4 */}
+            <div className="mx-auto max-w-3xl lg:mx-0 mt-6 sm:mt-10">
+              <div className="space-y-8">
+                <motion.div
+                  key="Form IV - Test report"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  // viewport={{ once: true }}
+                  className="flex items-center gap-x-4 rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200"
+                >
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[var(--primary-blue)]">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-auto">
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                      Form IV - Test report
+                    </h3>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-4.1.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+
+            {/* form 5 */}
+            <div className="mx-auto max-w-3xl lg:mx-0 mt-6 sm:mt-10">
+              <div className="space-y-8">
+                <motion.div
+                  key="Form V - BIS Application"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  // viewport={{ once: true }}
+                  className="flex items-center gap-x-4 rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200"
+                >
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[var(--primary-blue)]">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-auto">
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                      Form V - BIS Application
+                    </h3>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-5.1.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-5.2.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+
+            {/* form 6 */}
+            <div className="mx-auto max-w-3xl lg:mx-0 mt-6 sm:mt-10">
+              <div className="space-y-8">
+                <motion.div
+                  key="Form VI - Authorised Indian Representative Nomination (Application for Foreign manufacturers)"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  // viewport={{ once: true }}
+                  className="flex items-center gap-x-4 rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200"
+                >
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[var(--primary-blue)]">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-auto">
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                      Form VI - Authorised Indian Representative Nomination (Application for Foreign manufacturers)
+                    </h3>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-6.1.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+
+            {/* form 9 */}
+            <div className="mx-auto max-w-3xl lg:mx-0 mt-6 sm:mt-10">
+              <div className="space-y-8">
+                <motion.div
+                  key="Form IX - Agreement (applicable for foreign manufacturers)"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  // viewport={{ once: true }}
+                  className="flex items-center gap-x-4 rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200"
+                >
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[var(--primary-blue)]">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-auto">
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                      Form IX - Agreement (applicable for foreign manufacturers)
+                    </h3>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-9.1.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-9.2.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-9.3.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-9.4.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-9.5.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+
+            {/* form 10 */}
+            <div className="mx-auto max-w-3xl lg:mx-0 mt-6 sm:mt-10">
+              <div className="space-y-8">
+                <motion.div
+                  key="Form X - Indemnity Bond (applicable for foreign manufacturers)"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  // viewport={{ once: true }}
+                  className="flex items-center gap-x-4 rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200"
+                >
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[var(--primary-blue)]">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-auto">
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                     Form X - Indemnity Bond (applicable for foreign manufacturers)
+                    </h3>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-10.1.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+
+            {/* form 11 */}
+            <div className="mx-auto max-w-3xl lg:mx-0 mt-6 sm:mt-10">
+              <div className="space-y-8">
+                <motion.div
+                  key="Form XI - Performance Bank Guarantee (applicable for foreign manufacturers)"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  // viewport={{ once: true }}
+                  className="flex items-center gap-x-4 rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200"
+                >
+                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-[var(--primary-blue)]">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-auto">
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                     Form XI - Performance Bank Guarantee (applicable for foreign manufacturers)
+                    </h3>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-11.1.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            <p className="pt-4 mx-auto">
+              <Image
+                src="/images/form-11.2.png"
+                alt="scheme 1"
+                className="mx-auto w-full"
+                width={1000}
+                height={1000}
+              />
+            </p>
+            
+
             <div className="flex-auto">
               <p className="text-lg font-semibold">Note : </p>
               <ul className="list-disc pl-4">
@@ -254,7 +573,7 @@ export default function Forms() {
 
 
             <div className="mt-16">
-              <h5 className="text-lg sm:text-2xl font-semibold text-center">BIS CERTIFICATION Scheme - X</h5>
+              <h5 className="text-lg sm:text-2xl font-semibold text-center bg-[var(--primary-blue)] text-white py-2">BIS CERTIFICATION Scheme - X</h5>
               <h5 className="text-lg font-semibold mt-3">List of Machinery</h5>
               <p className="pt-4 mx-auto">
                 <Image
@@ -304,7 +623,7 @@ export default function Forms() {
             </div>
 
             <div className="mt-16">
-              <h5 className="text-lg sm:text-2xl font-semibold text-center">UPCOMING QCOS UNDER Scheme - X</h5>
+              <h5 className="text-lg sm:text-2xl font-semibold text-center bg-[var(--primary-blue)] text-white py-2">UPCOMING QCOS UNDER Scheme - X</h5>
               <h5 className="text-lg font-semibold mt-3">List of Machinery</h5>
               <p className="pt-8 sm:pt-12 mx-auto">
                 <Image
