@@ -2,19 +2,23 @@
   "name": "satyacs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.1.0",
     "framer-motion": "^12.12.2",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
-    "react-intersection-observer": "^9.16.0"
+    "react-intersection-observer": "^9.16.0",
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "eslint": "^8",
